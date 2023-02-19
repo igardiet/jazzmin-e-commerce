@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
+import productsStyles from './productsStyles'
 
 const products = [
     { id: 1, name: 'Minimoog Model D', description: 'Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Minimoog Model D.', price: '$5999', image: 'https://api.moogmusic.com/sites/default/files/image_gallery/2022-11/Minimoog_Model_D_Website-1.jpg'},
@@ -8,8 +9,10 @@ const products = [
 ];  
 
 const Products = () => {
+    const classes = productsStyles();
     return (
-      <main>
+      <main className={classes.content}>
+        <div className={classes.toolbar} />
         <Grid container justify="center" spacing={4}>
           {products.map((product) => (
             <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
