@@ -1,3 +1,61 @@
 .logo {
+    border: 1px solid #1B1464;
+    border-radius: 40px;
+    height: 4rem;
+    transition: .5s;
+
+}
+
+.logo:hover {
+    opacity: .8;
+    box-shadow: 0 0 10px #F95C17;
+
+}
+
+.cartLogo {
+    border-radius: 60%;
+    height: 2rem;
+    width: 3rem;
+    padding-right: 20%;
+    margin-top: .05rem;
+    margin-left: -80%;
+    transition: .5s;
+}
+
+.cartLogo:hover {
+    opacity: .6;
+}
+
+.navbarStyle {
+    /* background-image: url(../../assets/images/dark.jpeg); */
+    background-color: #222f3e;
+    opacity: .98;
+    box-shadow: 0 0 30px #222f3e;
     
+}
+
+.searchBar {
+    margin-right: 1rem;
+    margin-top: .3rem;
+    transition: .5s;
+
+}
+
+.searchBar:hover {
+    opacity: .6;
+}
+
+.searchLogo {
+    border-radius: 20px;
+    height: 2.5rem;
+    transition: .5s;
+
+}
+
+.searchLogo:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 800px) {
+
 }

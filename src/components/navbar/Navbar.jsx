@@ -1,16 +1,19 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import Logo from '../../assets/images/jazzminLogo.png'
+import { NavLink, Link } from 'react-router-dom'
+import Logo from '../../assets/images/jazzmin-logo.png'
+import cartLogo from '../../assets/images/cart-logo.png'
+import searchLogo from '../../assets/images/search-logo.png'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-body-tertiary">
+    <nav className="navbar bg-body-tertiar navbarStyle">
   <div className="container-fluid">
     <NavLink to='/'><img src={Logo} alt="Jazzmin logo" className='logo' /></NavLink>
-    <NavLink to='/checkout'>Cart</NavLink>
     <form className="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="btn btn-outline-success" type="submit">Search</button>
+    <NavLink to='/checkout'><img src={cartLogo} alt="Cart logo" className='cartLogo' /></NavLink>
+      <Link to='/'><input className="searchBar me-2" type="search" placeholder="Search" aria-label="Search" /></Link>
+      <Link to='/'><img src={searchLogo} alt="Search logo" className='searchLogo' /></Link>
     </form>
   </div>
 </nav>
