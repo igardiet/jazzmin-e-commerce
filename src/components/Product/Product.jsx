@@ -7,7 +7,7 @@ const Product = ({ id, name, description, price, image }) => {
   return (
     // style="width: 18rem;"
     <div className="card" key={id}>
-      <img src={image} className="card-img-top synthImage" alt="Synth image" />
+      <img src={image} className="card-img-top synthImage" alt="Synth" />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <h5>{price}</h5>
@@ -15,7 +15,7 @@ const Product = ({ id, name, description, price, image }) => {
           {description}
         </p>
         <Link to={'/'}>
-          <img src={addToCart} alt="Add to cart image" className="addToCart" />
+          <img src={addToCart} alt="Add to cart" className="addToCart" />
         </Link>
       </div>
     </div>
