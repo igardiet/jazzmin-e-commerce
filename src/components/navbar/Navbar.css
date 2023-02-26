@@ -28,9 +28,9 @@
 
 .navbarStyle {
     /* background-image: url(../../assets/images/dark.jpeg); */
-    background-color: #222f3e;
+    background-color: #1e272e;
     opacity: .98;
-    box-shadow: 0 0 30px #222f3e;
+    box-shadow: 0 0 30px #1e272e;
     
 }
 
@@ -38,7 +38,6 @@
     margin-right: 1rem;
     margin-top: .3rem;
     transition: .5s;
-
 }
 
 .searchBar:hover {
