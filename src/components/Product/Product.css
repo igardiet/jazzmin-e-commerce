@@ -25,4 +25,33 @@
 .addToCart {
     height: 2rem;
     width: 3rem;
+    transition: .5s;
+    border: 2px solid #FDAB2F;
+    border-radius: 10px;
+    background-color: #222F3E;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+.addToCart:hover {
+    height: 3rem;
+    width: 4rem;
+    background-color: #dfe4ea;
+}
+
+.addToWishList {
+    height: 2rem;
+    width: 3rem;
+    transition: .5s;
+    border: 2px solid #FDAB2F;
+    border-radius: 10px;
+    background-color: #222F3E;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+.addToWishList:hover {
+    height: 3rem;
+    width: 4rem;
+    background-color: #dfe4ea;
 }

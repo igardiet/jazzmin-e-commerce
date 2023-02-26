@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Logo from '../../assets/images/jazzmin-logo.png'
-import cartLogo from '../../assets/images/cart-logo.png'
+import cart from '../../assets/images/add-to-cart.png'
 import searchLogo from '../../assets/images/search-logo.png'
+import wishList from '../../assets/images/wishlist-logo.png'
 import './Navbar.css'
-import dataBase from '../../assets/db/db'
+// import dataBase from '../../assets/db/db'
 
 const Navbar = () => {
   return (
@@ -12,8 +13,8 @@ const Navbar = () => {
   <div className="container-fluid">
     <NavLink to='/'><img src={Logo} alt="Jazzmin logo" className='logo' /></NavLink>
     <form className="d-flex" role="search">
-    <NavLink to='/checkout'><img src={cartLogo} alt="Cart logo" className='cartLogo' /></NavLink>
-
+    <NavLink to='/checkout'><img src={cart} alt="Cart" className='cart' /></NavLink>
+    <NavLink to='/'><img src={wishList} alt="Wish list" className='wishList' /></NavLink>
 
     {/* <div> */}
       <input className="searchBar me-2" type="search" placeholder="Search" aria-label="Search" />

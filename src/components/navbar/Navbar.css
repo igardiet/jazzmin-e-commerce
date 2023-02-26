@@ -12,8 +12,20 @@
 
 }
 
-.cartLogo {
-    border-radius: 60%;
+.wishList {
+    height: 2rem;
+    width: 3rem;
+    padding-right: 20%;
+    margin-top: .05rem;
+    margin-left: -40%;
+    transition: .5s;
+}
+
+.wishList:hover {
+    opacity: .6;
+}
+
+.cart {
     height: 2rem;
     width: 3rem;
     padding-right: 20%;
@@ -22,7 +34,7 @@
     transition: .5s;
 }
 
-.cartLogo:hover {
+.cart:hover {
     opacity: .6;
 }
 
