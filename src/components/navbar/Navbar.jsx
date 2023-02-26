@@ -4,6 +4,7 @@ import Logo from '../../assets/images/jazzmin-logo.png'
 import cartLogo from '../../assets/images/cart-logo.png'
 import searchLogo from '../../assets/images/search-logo.png'
 import './Navbar.css'
+import dataBase from '../../assets/db/db'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,16 @@ const Navbar = () => {
     <NavLink to='/'><img src={Logo} alt="Jazzmin logo" className='logo' /></NavLink>
     <form className="d-flex" role="search">
     <NavLink to='/checkout'><img src={cartLogo} alt="Cart logo" className='cartLogo' /></NavLink>
-      <Link to='/'><input className="searchBar me-2" type="search" placeholder="Search" aria-label="Search" /></Link>
+
+
+    {/* <div> */}
+      <input className="searchBar me-2" type="search" placeholder="Search" aria-label="Search" />
+      {/* {dataBase.map((val, key) => {
+        return <div> {val.name} </div>
+      })} */}
+    {/* </div> */}
+
+
       <Link to='/'><img src={searchLogo} alt="Search logo" className='searchLogo' /></Link>
     </form>
   </div>
