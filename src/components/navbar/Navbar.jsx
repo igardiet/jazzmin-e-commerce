@@ -14,16 +14,8 @@ const Navbar = () => {
     <NavLink to='/'><img src={Logo} alt="Jazzmin logo" className='logo' /></NavLink>
     <form className="d-flex" role="search">
     <NavLink to='/checkout'><img src={cart} alt="Cart" className='cart' /></NavLink>
-    <NavLink to='/'><img src={wishList} alt="Wish list" className='wishList' /></NavLink>
-
-    {/* <div> */}
-      <input className="searchBar me-2" type="search" placeholder="Search" aria-label="Search" />
-      {/* {dataBase.map((val, key) => {
-        return <div> {val.name} </div>
-      })} */}
-    {/* </div> */}
-
-
+    <NavLink to='/wishlist'><img src={wishList} alt="Wish list" className='wishList' /></NavLink>
+      <Link><input className="searchBar me-2" type="search" placeholder="Search" aria-label="Search" /></Link>
       <Link to='/'><img src={searchLogo} alt="Search logo" className='searchLogo' /></Link>
     </form>
   </div>
