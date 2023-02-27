@@ -1,6 +1,6 @@
 .card {
     position: relative;
-    clip-path: polygon(0 0,100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0,100% 0, 100% 95%, 0 102%);
     border: 1px solid #EABF84;
     background-color: #dfe4ea;
     border-radius: 20px;
@@ -9,8 +9,12 @@
     transition: 1s;
 }
 
+.cardBody {
+    /* border: 2px solid red; */
+}
+
 .card:hover {
-    margin: -1rem;
+    margin: -.5rem;
     opacity: 1;
     color: #F95C17;
     background-color: #222f3e;
@@ -26,7 +30,6 @@
     height: 2rem;
     width: 3rem;
     transition: .5s;
-    border: 2px solid #FDAB2F;
     border-radius: 10px;
     background-color: #222F3E;
     padding: 5px;
@@ -43,7 +46,6 @@
     height: 2rem;
     width: 3rem;
     transition: .5s;
-    border: 2px solid #FDAB2F;
     border-radius: 10px;
     background-color: #222F3E;
     padding: 5px;
