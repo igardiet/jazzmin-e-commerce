@@ -39,11 +39,9 @@
 }
 
 .navbarStyle {
-    /* background-image: url(../../assets/images/dark.jpeg); */
     background-color: #1e272e;
-    opacity: .98;
-    box-shadow: 0 0 30px #1e272e;
-    
+    opacity: .95;
+    box-shadow: 0 0 100px #F95C17;
 }
 
 .searchBar {
