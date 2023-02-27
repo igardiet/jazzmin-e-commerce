@@ -5,7 +5,7 @@
     background-color: #dfe4ea;
     border-radius: 20px;
     opacity: .9;
-    color: #222f3e;
+    color: #1e272e;
     transition: 1s;
 }
 
@@ -17,7 +17,7 @@
     margin: -.5rem;
     opacity: 1;
     color: #F95C17;
-    background-color: #222f3e;
+    background-color: #1e272e;
     border: 3px solid #F95C17;
 }
 
@@ -31,7 +31,7 @@
     width: 3rem;
     transition: .5s;
     border-radius: 10px;
-    background-color: #222F3E;
+    background-color: #1e272e;
     padding: 5px;
     margin-left: 5%;
 }
@@ -47,7 +47,7 @@
     width: 3rem;
     transition: .5s;
     border-radius: 10px;
-    background-color: #222F3E;
+    background-color: #1e272e;
     padding: 5px;
     margin-left: 5%;
 }
