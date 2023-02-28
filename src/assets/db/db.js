@@ -1,5 +1,5 @@
 import image from '../images/mavis-synth.jpeg'
-import image2 from '../images/subsequent-25.jpeg'
+import image2 from '../images/Subsequent-25.jpeg'
 import image3 from '../images/minimoog-model-d.jpeg'
 import image4 from '../images/subsequent-37.jpg'
 import image5 from '../images/moog-one.jpg'
