@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/jazzmin-logo.png";
+import synths from "../../assets/images/keyboard-logo.png";
 import cart from "../../assets/images/add-to-cart.png";
 import searchLogo from "../../assets/images/search-logo.png";
 import wishList from "../../assets/images/wishlist-logo.png";
@@ -14,6 +15,9 @@ const Navbar = () => {
           <img src={logo} alt="Jazzmin logo" className="logo" />
         </Link>
         <form className="d-flex" role="search">
+          <Link to="/products">
+            <img src={synths} alt="Synths" className="synths" />
+          </Link>
           <Link to="/cart">
             <img src={cart} alt="Cart" className="cart" />
           </Link>
