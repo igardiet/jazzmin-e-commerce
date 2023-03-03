@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer navbar-fixed-bottom">
       <p>2023</p>
       <h5>© Jazzmin Synthesizers</h5>
       <p className="card-text">
