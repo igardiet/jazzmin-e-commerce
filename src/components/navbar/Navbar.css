@@ -16,7 +16,7 @@
     height: 2rem;
     width: 3rem;
     padding-right: 20%;
-    margin-top: .05rem;
+    margin-top: 0rem;
     margin-left: -40%;
     transition: .5s;
 }
@@ -38,6 +38,19 @@
     opacity: .6;
 }
 
+.synths {
+    height: 2rem;
+    width: 3rem;
+    padding-right: 20%;
+    margin-top: .35rem;
+    margin-left: -130%;
+    transition: .5s;
+}
+
+.synths:hover {
+    opacity: .6;
+}
+
 .navbarStyle {
     background-color: #1e272e;
     opacity: .95;
@@ -46,7 +59,7 @@
 
 .searchBar {
     margin-right: 1rem;
-    margin-top: .3rem;
+    margin-top: .4rem;
     transition: .5s;
 }
 
@@ -65,6 +78,39 @@
     opacity: .6;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+
+    .logo {
+        height: 5vh;
+        width: 25vw;
+    }
+
+    .synths {
+        height: 4vh;
+        width: 12vw;
+        margin-left: -60%;
+
+    }
+
+    .cart {
+        height: 4vh;
+        width: 6vw;
+    }
+
+    .wishList {
+        height: 4vh;
+        width: 6vw;
+    }
+
+    .searchBar {
+        height: 4vh;
+        width: 25vw;
+        margin-top: 0rem;
+    }
+
+    .searchLogo{
+        height: 4vh;
+        width: 6vw;
+    }
 
 }
