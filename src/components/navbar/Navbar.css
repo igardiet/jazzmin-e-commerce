@@ -1,81 +1,68 @@
-.logo {
-    border: 1px solid #1B1464;
-    border-radius: 40px;
-    height: 4rem;
-    transition: .5s;
-
-}
-
-.logo:hover {
-    opacity: .8;
-    box-shadow: 0 0 10px #F95C17;
-
-}
-
-.wishList {
-    height: 2rem;
-    width: 3rem;
-    padding-right: 20%;
-    margin-top: 0rem;
-    margin-left: -40%;
-    transition: .5s;
-}
-
-.wishList:hover {
-    opacity: .6;
-}
-
-.cart {
-    height: 2rem;
-    width: 3rem;
-    padding-right: 20%;
-    margin-top: .05rem;
-    margin-left: -80%;
-    transition: .5s;
-}
-
-.cart:hover {
-    opacity: .6;
-}
-
-.synths {
-    height: 2rem;
-    width: 3rem;
-    padding-right: 20%;
-    margin-top: .35rem;
-    margin-left: -130%;
-    transition: .5s;
-}
-
-.synths:hover {
-    opacity: .6;
-}
-
 .navbarStyle {
     background-color: #1e272e;
     opacity: .95;
     box-shadow: 0 0 100px #F95C17;
 }
 
-.searchBar {
-    margin-right: 1rem;
-    margin-top: .4rem;
-    transition: .5s;
-}
-
-.searchBar:hover {
-    opacity: .6;
-}
-
-.searchLogo {
-    border-radius: 20px;
-    height: 2.5rem;
-    transition: .5s;
-
-}
-
-.searchLogo:hover {
-    opacity: .6;
+@media screen and (max-width: 5000px) {
+    .logo {
+        border: 5px solid #1B1464;
+        border-radius: 40px;
+        height: 4rem;
+        transition: .5s;
+    
+    }
+    
+    .logo:hover {
+        opacity: .8;
+        box-shadow: 0 0 10px #F95C17;
+    }
+    
+    .synths {
+        height: 2rem;
+        width: 2rem;
+        margin-top: .8rem;
+        transition: .5s;
+    }
+    
+    .synths:hover {
+        opacity: .6;
+    }
+    
+    .cart {
+        height: 2rem;
+        width: 3rem;
+        padding-right: 20%;
+        margin-top: .05rem;
+        transition: .5s;
+    }
+    
+    .cart:hover {
+        opacity: .6;
+    }
+    
+    .wishList {
+        height: 2rem;
+        width: 3rem;
+        padding-right: 20%;
+        margin-top: 0rem;
+        margin-left: -40%;
+        transition: .5s;
+    }
+    
+    .wishList:hover {
+        opacity: .6;
+    }
+    
+    .searchBar {
+        margin-right: 1rem;
+        margin-top: .4rem;
+        transition: .5s;
+    }
+    
+    .searchBar:hover {
+        opacity: .6;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -87,19 +74,20 @@
 
     .synths {
         height: 4vh;
-        width: 12vw;
-        margin-left: -60%;
-
+        width: 8vw;
+        margin-top: 50%;
     }
 
     .cart {
         height: 4vh;
         width: 6vw;
+        margin-left: 30%;
     }
 
     .wishList {
         height: 4vh;
         width: 6vw;
+        margin-left: 30%;
     }
 
     .searchBar {
@@ -107,10 +95,4 @@
         width: 25vw;
         margin-top: 0rem;
     }
-
-    .searchLogo{
-        height: 4vh;
-        width: 6vw;
-    }
-
 }
