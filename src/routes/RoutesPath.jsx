@@ -1,22 +1,22 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import Home from '../pages/Home';
-import Cart from '../pages/Cart';
-import Wishlist from '../pages/Wishlist';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Home from "../components/home/Home";
+import Products from "../components/products/Products";
+import Cart from "../components/cart/Cart";
+import Wishlist from "../components/wishlist/Wishlist";
 
-
-export const RoutesPath = () => {
+const RoutesPath = () => {
   return (
     <div>
-        <BrowserRouter>
-            <Routes>
-                <Route path='/*' element={<Navigate to ='/' />} />
-                <Route path='/' element={<Home />} />
-                <Route path='/cart' element={<Cart />} />
-                <Route path='/wishlist' element={<Wishlist />} />
-            </Routes>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/*" element={<Navigate to="/" />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/wishlist" element={<Wishlist />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
-}
-
+  );
+};
+export default RoutesPath
