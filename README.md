@@ -3,10 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Follow these steps to clone to glance this repository
-1. clone or zip download this repository information, then on your text editor's terminal type:
+1. clone or zip download this repository, then on your text editor's terminal, type:
 2. npm i
 3. npm start
-
+_______________________________________________________________________________________
 In the project directory, you can run:
 
 ### `npm start`
