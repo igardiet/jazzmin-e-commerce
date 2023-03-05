@@ -4,6 +4,10 @@
     box-shadow: 0 0 100px #F95C17;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 5000px) {
     .logo {
         border: 5px solid #1B1464;
@@ -39,7 +43,7 @@
 
     span {
         padding: 0 3px;
-        background-color: red;
+        background-color: #F95C17;
         color: white;
         font-weight: bold;
         border-radius: 5px;
@@ -61,16 +65,6 @@
     }
     
     .wishList:hover {
-        opacity: .6;
-    }
-    
-    .searchBar {
-        margin-right: 1rem;
-        margin-top: .4rem;
-        transition: .5s;
-    }
-    
-    .searchBar:hover {
         opacity: .6;
     }
 }
@@ -98,11 +92,5 @@
         height: 4vh;
         width: 6vw;
         margin-left: 30%;
-    }
-
-    .searchBar {
-        height: 4vh;
-        width: 25vw;
-        margin-top: 0rem;
     }
 }
