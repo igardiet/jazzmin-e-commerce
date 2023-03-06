@@ -3,22 +3,21 @@ import dataBase from "../assets/db/db";
 export const allContext = createContext();
 
 const ContextProvider = ({ children }) => {
-  const [products, setProducts] = useState([]); //dataBase inside ()
-  // const cartList = JSON.parse(localStorage.getItem('Cart')) || []
-  // const [cart, setCart] = useState(cartList);
+  
+  const cartList = JSON.parse(localStorage.getItem('Cart')) || []
+  const [products, setProducts] = useState(cartList);
 
-  // useEffect(() => {
-  //   const cartString = JSON.stringify(cart)
-  //   localStorage.setItem('Cart', cartString)
-  // }, [cart])
+  useEffect(() => {
+    const cartString = JSON.stringify(products)
+    console.log(products)
+    localStorage.setItem('Cart', cartString)
+  }, [products])
 
   return (
     <allContext.Provider
       value={{
         products,
         setProducts,
-        // cart,
-        // setCart
       }}
     >
       {children}
