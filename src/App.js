@@ -1,12 +1,12 @@
-import Context from './context/Context';
+import ContextProvider from './context/Context';
 import RoutesPath from './routes/RoutesPath.jsx';
 
 function App() {
   return (
     <div>
-      <Context >
+      <ContextProvider>
         <RoutesPath />
-      </Context>
+      </ContextProvider>
     </div>
   );
 }

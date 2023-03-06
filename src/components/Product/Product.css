@@ -1,3 +1,10 @@
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
 .card {
     position: relative;
     clip-path: polygon(0 0,100% 0, 100% 95%, 0 102%);
@@ -34,6 +41,7 @@
     background-color: #1e272e;
     padding: 5px;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .addToCart:hover {
@@ -50,6 +58,7 @@
     background-color: #1e272e;
     padding: 5px;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .addToWishList:hover {
