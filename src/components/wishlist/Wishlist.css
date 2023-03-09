@@ -2,3 +2,10 @@
     min-height: 74vh;
     background-color: #F95C17;
 }
+
+.soon {
+    display: grid;
+    text-align: center;
+    margin-top: auto;
+    font-size: 2000%;
+}
