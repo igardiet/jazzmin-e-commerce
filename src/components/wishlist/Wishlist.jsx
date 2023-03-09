@@ -7,7 +7,7 @@ const Wishlist = () => {
     <div>
       <Navbar />
       <div className="wishListStyles">
-
+        <span className="soon">COMING SOON</span>
       </div>
       <Footer />
     </div>
