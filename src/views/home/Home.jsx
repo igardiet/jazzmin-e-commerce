@@ -1,5 +1,3 @@
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
 import modular1 from "../../assets/images/modular1.jpg";
 import modular2 from "../../assets/images/modular2.jpg";
 import modular3 from "../../assets/images/modular3.jpeg";
@@ -11,7 +9,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"
@@ -93,7 +90,6 @@ const Home = () => {
         sound and look. Our products are designed by musicians for musicians -
         producing an affordable range that is both reliable and high quality.
       </h1>
-      <Footer />
     </div>
   );
 };

@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Cinzel', serif;
+    max-width: 100%;
 }
 
 body {
     background-image: url(../../assets/images/background-pic.jpeg);
+    /* background-color: #131717; */
     background-size: cover;
     height: 100vh;
     display: grid;
@@ -16,13 +18,15 @@ body {
 }
 
 .title {
-    background-color: #1e272e;
-    color: #f9f7f3;
+    background-color: #000000;
+    color: #ffffff;
     margin: 0;
     padding: 3%;
 }
 
 .modular {
-    border: 50px solid #1e272e;
+    border: 10px solid #DBB57D;
+    border-radius: 5px;
     height: 90vh;
+    opacity: .98;
 }
