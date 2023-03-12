@@ -1,0 +1,25 @@
+.productDetailViewStyles {
+    min-height: 73.5vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+    padding-top: 5rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    border: 2px solid #27ae60;
+    border-radius: 3px;
+    background-color: #27ae60;
+}
+
+.desc {
+    border: 2px solid #ecf0f1;
+    border-radius: 3px;
+    background-color: #ecf0f1;
+}

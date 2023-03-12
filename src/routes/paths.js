@@ -1,0 +1,6 @@
+export const HOME = '/'
+export const LOGIN = '/login'
+export const CHECKOUT = '/checkout'
+export const LOGOUT = '/checkout/logout'
+export const PRODUCTS = '/products'
+export const CART = '/cart'
