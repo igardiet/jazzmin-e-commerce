@@ -10,10 +10,10 @@
   
       {
           "id": 2,
-          "name": "Subsequent 25",
-          "description": "Subsequent 25 is a 2-note paraphonic analog synthesizer that melds the hands-on analog soul of classic Moog instruments with the convenience and workflow of a modern sound-design machine. Moog’s most compact keyboard synthesizer, the Subsequent 25 delivers all of the rich sonic density that Moog synthesizers are known for.",
-          "price": 1349,
-          "image": "../images/Subsequent-25.jpeg"
+          "name": "Moog One",
+          "description": "Moog One® is the ultimate Moog synth - a tri-timbral, polyphonic, analog dream-synth designed to inspire imagination, stimulate creativity, and unlock portals to vast new realms of sonic potential.",
+          "price": 8099,
+          "image": "../images/moog-one.jpg"
       },
   
       {
@@ -34,10 +34,10 @@
   
       {
           "id": 5,
-          "name": "Moog One",
-          "description": "Moog One® is the ultimate Moog synthesizer - a tri-timbral, polyphonic, analog dream-synth designed to inspire imagination, stimulate creativity, and unlock portals to vast new realms of sonic potential.",
-          "price": 8099,
-          "image": "../images/moog-one.jpg"
+          "name": "Subsequent 25",
+          "description": "Subsequent 25 is a 2-note paraphonic analog synthesizer that melds the hands-on analog soul of classic Moog instruments with the convenience and workflow of a modern sound-design machine. Moog’s most compact keyboard synthesizer, the Subsequent 25 delivers all of the rich sonic density that Moog synthesizers are known for.",
+          "price": 1349,
+          "image": "../images/Subsequent-25.jpeg"
       },
   
       {
