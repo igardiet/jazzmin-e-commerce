@@ -1,0 +1,9 @@
+.checkoutStyles {
+    min-height: 74vh;
+    background-color: #031753;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size: 1000%;
+    color: #CCA56D;
+}
