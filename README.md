@@ -38,6 +38,7 @@ Requirements for the software and other tools to build, test and push
 - CSS: Cascading Style Sheets
 - [BOOTSTRAP](https://getbootstrap.com/): Bootstrap styles by CDN links
 - JS: Programming Language
+- React: For UI components and state management
 
-## Authors
+## Author
 - <a href="https://github.com/igardiet">Iñaki García</a>
