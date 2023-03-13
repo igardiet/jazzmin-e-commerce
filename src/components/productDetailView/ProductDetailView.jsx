@@ -1,22 +1,21 @@
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import data from "../../db.json";
-
-{console.log('hola')}
-console.log(data);
+import "./ProductDetailView.css";
 
 export const ProductDetailView = () => {
   const { id: productId } = useParams();
-  const { id, name, description } = data.dataBase.find(
-    (product) => product.id === parseInt(productId)
-  );
+  const product = data.dataBase.find((product) => {
+    return product.id === parseInt(productId);
+  });
+  if (!product) {
+    return <Navigate to={"/products"} />;
+  }
+  const { name, price, description } = product;
   return (
-    <div>
-      {/* <h2>{name}</h2>
-      <p>{description}</p>
-      <span>{id}</span>
-      {console.log(description)}
-      {console.log(name)}
-      {console.log(id)} */}
+    <div className="productDetailViewStyles">
+      <h2 className="name">{name}</h2>
+      <span className="price">€{price}</span>
+      <span className="desc">{description}</span>
     </div>
   );
 };
