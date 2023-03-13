@@ -1,16 +1,16 @@
-// import AuthProvider from "./auth/context/AuthProvider";
+import { AuthContextProvider } from "./context/authContext";
 import CartProvider from "./context/CartContext";
 import ProductProvider from "./context/ProductContext";
-import AppRoutes from "./router/AppRoutes";
+import { AppRoutes } from "./routes/AppRoutes";
 
 export const App = () => {
   return (
     <ProductProvider>
-      <CartProvider>
-        {/* <AuthProvider> */}
+      <AuthContextProvider>
+        <CartProvider>
           <AppRoutes />
-        {/* </AuthProvider> */}
-      </CartProvider>
+        </CartProvider>
+      </AuthContextProvider>
     </ProductProvider>
   );
-}
+};
