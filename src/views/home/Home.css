@@ -8,13 +8,9 @@
 
 body {
     background-image: url(../../assets/images/background-pic.jpeg);
-    /* background-color: #131717; */
     background-size: cover;
     height: 100vh;
     display: grid;
-    /* display: flex;
-    flex-direction: column; */
-    /* place-items: center center; */
 }
 
 .title {
@@ -25,8 +21,9 @@ body {
 }
 
 .modular {
-    border: 10px solid #DBB57D;
-    border-radius: 5px;
-    height: 90vh;
+    /* border: 10px solid #DBB57D; */
+    border-left: 300px solid #000000;
+    border-right: 300px solid #000000;
+    height: 60vh;
     opacity: .98;
 }
