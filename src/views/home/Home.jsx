@@ -6,7 +6,7 @@ import modular5 from "../../assets/images/modular5.jpeg";
 import modular6 from "../../assets/images/background-pic.jpeg";
 import "./Home.css";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div>
       <div
@@ -93,5 +93,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
