@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className="footer navbar-fixed-bottom">
       <p>2023</p>
@@ -11,5 +11,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;
