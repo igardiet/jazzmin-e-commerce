@@ -5,8 +5,8 @@ import {
   Navigate,
 } from "react-router-dom";
 import { LOGIN, LOGOUT, CART, CHECKOUT, PRODUCTS } from "../routes/paths";
-import Login from "../views/Login";
-import { Logout } from "../views/Logout";
+import { Login } from "../views/Login";
+import { Logout } from "../components/auth/Logout";
 import { Home } from "../views/home/Home";
 import { Products } from "../views/products/Products";
 import { Cart } from "../views/cart/Cart";
