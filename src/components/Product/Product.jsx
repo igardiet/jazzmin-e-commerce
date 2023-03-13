@@ -1,25 +1,44 @@
-import { useContext } from 'react';
-import addToCart from '../../assets/images/add-to-cart.png'
-import addToWishList from '../../assets/images/wishlist-logo.png'
-import { allContext } from '../../context/Context';
-import './Product.css'
+import { useContext } from "react";
+import addToCartImage from "../../assets/images/add-to-cart.png";
+import addToCheckout from "../../assets/images/checkout-logo.png";
+import { CartContext } from "../../context/CartContext";
+import { v4 as uuidv4 } from "uuid";
+import { useNavigate } from "react-router-dom";
+import "./Product.css";
 
+const Product = ({ id, name, description, price, image }) => {
+  const { cart, setCart } = useContext(CartContext);
+  const uID = uuidv4();
+  const navigate = useNavigate();
+  const addToCart = () => {
+    setCart([...cart, { id: uID, name, description, image, price }]);
+    const newCart = [...cart, { id: uID, name, description, image, price }];
+    localStorage.setItem("cart", JSON.stringify(newCart));
+  };
 
-const Product = ({ id, name, description, price, image}) => {
-  const { products, setProducts } = useContext(allContext)
-  const addProduct = () => {
-    setProducts([...products, {id, name, description, price, image}])
-  }
-  
   return (
     <div className="card" key={id}>
-      <img src={image} className="card-img-top synthImage" alt="Synth" />
+      <img
+        src={image}
+        className="card-img-top synthImage"
+        alt="Synth"
+        onClick={() => navigate(`${id.toString()}`)}
+      />
       <div className="cardBody">
-        <h5 className="card-title">{name}</h5>
-        <h5>{price}</h5>
+        <div className="nameAndPrice">
+          <h5 className="card-title">{name}</h5>
+          <h5>€ {price}</h5>
+        </div>
         <p className="card-text">{description}</p>
-        <img src={addToCart} alt="Add to cart" className="addToCart" onClick={addProduct} />
-        <img src={addToWishList} alt="Wishlist" className="addToWishList" />
+        <div className="cardRedButtons">
+          <img
+            src={addToCartImage}
+            alt="Add to cart"
+            className="addToCart"
+            onClick={() => addToCart()}
+          />
+          <img src={addToCheckout} alt="Checkout" className="addToCheckout" />
+        </div>
       </div>
     </div>
   );
