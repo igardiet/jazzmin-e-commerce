@@ -1,7 +1,7 @@
 .navbarStyle {
-    background-color: #1e272e;
+    background-color: #131717;
     opacity: .95;
-    box-shadow: 0 0 100px #F95C17;
+    box-shadow: 0 0 100px #EF1A2D;
 }
 
 a {
@@ -10,22 +10,27 @@ a {
 
 @media screen and (max-width: 5000px) {
     .logo {
-        border: 5px solid #1B1464;
         border-radius: 40px;
         height: 4rem;
         transition: .5s;
-    
+        margin-left: 2rem;
     }
-    
+
     .logo:hover {
         opacity: .8;
-        box-shadow: 0 0 10px #F95C17;
+        box-shadow: 0 0 10px #EF1A2D;
+    }
+
+    .navbarItems {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
     }
     
     .synths {
-        height: 2rem;
-        width: 2rem;
-        margin-top: .8rem;
+        height: 3rem;
+        width: 6rem;
+        margin-top: 1rem;
         transition: .5s;
     }
     
@@ -37,60 +42,113 @@ a {
         height: 2rem;
         width: 3rem;
         padding-right: 20%;
-        margin-top: .05rem;
+        margin-top: 1rem;
         transition: .5s;
     }
-
-    span {
-        padding: 0 3px;
-        background-color: #F95C17;
-        color: white;
-        font-weight: bold;
-        border-radius: 5px;
-        position: relative;
-        top: -15px;
-    }
-
+    
     .cart:hover {
         opacity: .6;
     }
+
+    .redBalloon {
+        padding: 0 3px;
+        background-color: #EF1A2D;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 10px;
+        position: relative;
+        top: -20px;
+        right: 35px;
+    }
     
-    .wishList {
+    .logIn {
         height: 2rem;
         width: 3rem;
         padding-right: 20%;
-        margin-top: 0rem;
-        margin-left: -40%;
+        margin-top: 1rem;
+        transition: .5s;
+    }
+
+    .logOut {
+        height: 2rem;
+        width: 3rem;
+        padding-right: 20%;
+        margin-top: 1rem;
+        transition: .5s;
+    }
+
+    .checkout {
+        height: 2rem;
+        width: 3rem;
+        padding-right: 20%;
+        margin-top: 1rem;
         transition: .5s;
     }
     
-    .wishList:hover {
+    .checkout:hover {
         opacity: .6;
+    }
+
+    .homeLogo {
+        visibility: hidden;
+        width: 0;
+        height: 0;
     }
 }
 
 @media screen and (max-width: 600px) {
 
+    .logIn {
+        height: 2rem;
+        width: 3rem;
+    }
+
+    .logOut {
+        margin-top: 1.3rem;
+        height: 1rem;
+        width: 2rem;
+    }
+
     .logo {
+        width: 5vw;
+        height: 10vh;
+        display: none;
+    }
+
+    .homeLogo {
+        visibility: visible;
+        width: 5vw;
         height: 5vh;
-        width: 25vw;
+        margin-top: 15px;
     }
 
     .synths {
-        height: 4vh;
+        height: 5vh;
         width: 8vw;
-        margin-top: 50%;
+        margin-top: 1.4rem;
     }
 
     .cart {
-        height: 4vh;
-        width: 6vw;
+        height: 5vh;
+        width: 8vw;
         margin-left: 30%;
     }
 
-    .wishList {
-        height: 4vh;
-        width: 6vw;
-        margin-left: 30%;
+    .redBalloon {
+        padding: 0 3px;
+        background-color: #EF1A2D;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 10px;
+        position: relative;
+        top: -50px;
+        right: -16px;
+        width: 0px;
+        height: 5px;
+    }
+
+    .checkout {
+        height: 5vh;
+        width: 8vw;
     }
 }
