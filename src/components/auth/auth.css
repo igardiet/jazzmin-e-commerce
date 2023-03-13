@@ -1,9 +1,10 @@
 .authStyle {
-    min-height: 73.5vh;
+    min-height: 76vh;
 }
 
 .logInForm {
     padding-top: 6.9rem;
+    padding-bottom: 5rem;
     background-color: #131717;
     display: flex;
     flex-direction: column;

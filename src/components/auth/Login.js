@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useAuthContext } from "../context/authContext";
-import { USER, PASSWORD } from "../helpers/magicWords";
-import "./auth.css";
+import { useAuthContext } from "../../context/authContext";
+import { USER, PASSWORD } from '../../helpers/magicWords'
+import '../auth/auth.css'
 
-export default function Login() {
+export default function LoginContext() {
   const { login } = useAuthContext();
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
