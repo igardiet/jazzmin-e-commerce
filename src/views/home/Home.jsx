@@ -1,9 +1,9 @@
-import modular1 from "../../assets/images/modular1.jpg";
-import modular2 from "../../assets/images/modular2.jpg";
-import modular3 from "../../assets/images/modular3.jpeg";
-import modular4 from "../../assets/images/modular4.jpeg";
-import modular5 from "../../assets/images/modular5.jpeg";
-import modular6 from "../../assets/images/background-pic.jpeg";
+import modular1 from "../../assets/images/background/modular1.jpg";
+import modular2 from "../../assets/images/background/modular2.jpg";
+import modular3 from "../../assets/images/background/modular3.jpeg";
+import modular4 from "../../assets/images/background/modular4.jpeg";
+import modular5 from "../../assets/images/background/modular5.jpeg";
+import modular6 from "../../assets/images/background/background-pic.jpeg";
 import "./Home.css";
 
 export const Home = () => {

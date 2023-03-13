@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import addToCartImage from "../../assets/images/add-to-cart.png";
-import addToCheckout from "../../assets/images/checkout-logo.png";
+import addToCartImage from "../../assets/images/logos/add-to-cart.png";
+import addToCheckout from "../../assets/images/logos/checkout-logo.png";
 import { CartContext } from "../../context/CartContext";
 import { v4 as uuidv4 } from "uuid";
 import { useNavigate } from "react-router-dom";

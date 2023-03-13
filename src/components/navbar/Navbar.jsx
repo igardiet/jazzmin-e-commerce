@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/jazzmin-logo.png";
-import homeLogo from "../../assets/images/home-logo.png";
-import synths from "../../assets/images/keyboard-logo.png";
-import cartImage from "../../assets/images/add-to-cart.png";
-import checkout from "../../assets/images/checkout-logo.png";
-import logInImage from "../../assets/images/login-logo.png";
-import logOutImage from "../../assets/images/exit.png";
+import logo from "../../assets/images/logos/jazzmin-logo.png";
+import homeLogo from "../../assets/images/logos/home-logo.png";
+import synths from "../../assets/images/logos/keyboard-logo.png";
+import cartImage from "../../assets/images/logos/add-to-cart.png";
+import checkout from "../../assets/images/logos/checkout-logo.png";
+import logInImage from "../../assets/images/logos/login-logo.png";
+import logOutImage from "../../assets/images/logos/exit.png";
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { LOGIN } from "../../routes/paths";

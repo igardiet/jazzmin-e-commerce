@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../../assets/images/white-wall.jpeg);
+    background-image: url(../../assets/images/background/white-wall.jpeg);
     background-size: cover;
 }
 

@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../../assets/images/background-pic.jpeg);
+    background-image: url(../../assets/images//background/background-pic.jpeg);
     background-size: cover;
     height: 100vh;
     display: grid;
