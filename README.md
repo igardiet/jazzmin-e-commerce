@@ -15,11 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started and installing
 
-#### Follow these steps to clone to take a glance this repository
-1. clone this repository, then on your text editor's terminal, type:
-2. npm i
-3. npm run db
-4. open a new terminal window and run: npm start
+#### Follow these steps after you clone this repository
+1. npm i
+2. npm install json-server
+3. npm run db (one one window terminal)
+4. npm start (on another window terminal)
 
 ## Prerequisites
 
