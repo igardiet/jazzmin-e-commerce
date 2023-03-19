@@ -34,7 +34,7 @@ Requirements for the software and other tools to build, test and push
 
 ## Tools
 
-- HTML: HyperText Markup Language∑∑x
+- HTML: HyperText Markup Language
 - CSS: Cascading Style Sheets
 - [BOOTSTRAP](https://getbootstrap.com/): Bootstrap styles by CDN links
 - JS: Programming Language
